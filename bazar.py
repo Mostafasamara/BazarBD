@@ -19,7 +19,7 @@ SESSION_API = "https://www.askyourdatabase.com/api/chatbot/v2/session"
 
 # --- Streamlit Setup ---
 st.set_page_config(page_title="AYD Chatbot (Live)", layout="wide")
-st.title("💬 Embedded AskYourDatabase Chatbot")
+st.title("💬 Bazar Chatbot Demo ...")
 
 # --- Create New Session Function ---
 def create_chat_session():
