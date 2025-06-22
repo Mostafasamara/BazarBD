@@ -5,7 +5,7 @@ import time
 import random
 
 # --- Configuration ---
-API_KEY = "9ff8e75f1eaa38d836ec1225036b69d9058bf330526b95801dd087c1324b3fa0"  # Replace with your AYD API key
+API_KEY = "78387d4ea5d6ce4a311fb2ed2b82d9421ab37712f8c31fe06b6f847f3505df92"  # Replace with your AYD API key
 CHATBOT_ID = "6eda15660c4fdb55d8f7bd32e388af7a"  # Replace with your Chatbot ID
 SESSION_API = "https://www.askyourdatabase.com/api/chatbot/v2/session"
 
