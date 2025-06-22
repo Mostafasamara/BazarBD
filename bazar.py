@@ -5,8 +5,8 @@ import time
 import random
 
 # --- Configuration ---
-API_KEY = "78387d4ea5d6ce4a311fb2ed2b82d9421ab37712f8c31fe06b6f847f3505df92"  # Replace with your AYD API key
-CHATBOT_ID = "6eda15660c4fdb55d8f7bd32e388af7a"  # Replace with your Chatbot ID
+API_KEY = "280a102f26be265255665e51331b4e6749dfe4549830b4da809ce76544bf60df"  # Replace with your AYD API key
+CHATBOT_ID = "b8b8b8af5ff909a6dfde995a3c87923f"  # Replace with your Chatbot ID
 SESSION_API = "https://www.askyourdatabase.com/api/chatbot/v2/session"
 
 # --- Streamlit Setup ---
