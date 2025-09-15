@@ -11,7 +11,7 @@ SESSION_API = "https://www.askyourdatabase.com/api/chatbot/v2/session"
 
 # --- Streamlit Setup ---
 st.set_page_config(page_title="AYD Chatbot (Live)", layout="wide")
-    st.title("💬 YallaPlus Chatbot Demo")
+st.title("💬 YallaPlus Chatbot Demo")
 
 # --- Sidebar Refresh Control ---
 st.sidebar.title("🔄 Session Controls")
@@ -52,4 +52,5 @@ if st.session_state.chat_session_url:
     )
 else:
     st.warning("⚠️ Chatbot failed to load. Please check your API key or chatbot configuration.")
+
 
