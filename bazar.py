@@ -5,8 +5,8 @@ import time
 import random
 
 # --- Configuration ---
-API_KEY = "280a102f26be265255665e51331b4e6749dfe4549830b4da809ce76544bf60df"  # Replace with your AYD API key
-CHATBOT_ID = "b8b8b8af5ff909a6dfde995a3c87923f"  # Replace with your Chatbot ID
+API_KEY = "f9a4798858bcfc139756bfe2a0fea44360350849e414a4daa57f6781518a0f02"  # Replace with your AYD API key
+CHATBOT_ID = "0e49a6381fee4f58e5060f4f17e7de9f"  # Replace with your Chatbot ID
 SESSION_API = "https://www.askyourdatabase.com/api/chatbot/v2/session"
 
 # --- Streamlit Setup ---
@@ -52,5 +52,6 @@ if st.session_state.chat_session_url:
     )
 else:
     st.warning("⚠️ Chatbot failed to load. Please check your API key or chatbot configuration.")
+
 
 
